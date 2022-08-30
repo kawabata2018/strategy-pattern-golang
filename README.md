@@ -1,0 +1,2 @@
+# strategy-pattern-golang
+StrategyパターンでGo言語のinterfaceを説明したい
