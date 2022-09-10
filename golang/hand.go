@@ -36,10 +36,10 @@ func (h Hand) String() string {
 }
 
 // じゃんけんの「手」の文字列表現を返すためのマップ
-func (h Hand) Names() []string {
-	return []string{
-		"グー",
-		"チョキ",
-		"パー",
+func (h Hand) Names() map[Hand]string {
+	return map[Hand]string{
+		Rock:     "グー",
+		Scissors: "チョキ",
+		Paper:    "パー",
 	}
 }
